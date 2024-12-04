@@ -1,0 +1,65 @@
+
+.btn-made-by-me{
+    position:absolute;
+    bottom: 8px;
+    left:8px;
+    right:8px;
+    
+}
+
+.social-icon {
+    color: #000;  /* Default black color */
+    font-size: 24px;  /* Adjust icon size */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .social-icon:hover {
+    color: #fff;  /* Change color to white on hover */
+    background-color: #000;
+  }
+  
+  .social-icon:active {
+    color: #007bff; /* Optional: Change color when icon is clicked */
+  }
+.share-btn{
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+}
+.relate{
+    position: relative;
+    height: 19rem;
+}
+@media (max-width: 1024px) {
+    .relate {
+        height:18rem;
+    }
+    .btn-made-by-me{
+        display: flex;
+        /* flex-direction: column; */
+        gap:-2px;
+        /* width: 100%; */
+       bottom:40px;
+        left:30px;
+        right:30px;
+    }
+    .share-btn{
+       /* opacity: 0;  */
+       bottom: 85px;
+       left:30px;
+    }
+    .text-lg{
+        font-size: 16px;
+    }
+    .text-m{
+        font-size:9px;
+    }
+    .mt-3{
+        font-size:14px;
+    }
+    .rounded-lg{
+        height: 100%;
+        width: 110%;
+        margin-left:-10px;
+    }
+}

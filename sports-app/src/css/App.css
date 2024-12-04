@@ -1,0 +1,16 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+.rosyRed{
+  background-color:#ff4d88 ;
+}
+.text-rosy-red{
+  color:#ff4d88
+}
+  
